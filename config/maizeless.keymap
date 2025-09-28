@@ -109,7 +109,7 @@
 
   l_vim{
     bindings = <
-      &trans &trans &trans &trans &trans &trans           &first_char &kp CARET    &trans &trans &trans &trans 
+      &trans &trans &trans &trans &trans &trans           &last_char &kp CARET    &trans &trans &trans &trans 
       &trans &trans &trans &trans &trans &trans           &kp H       &kp J  &kp K  &kp L  &trans &trans 
       &trans &trans &trans &trans &trans &trans           &trans      &trans &trans &trans &trans &trans  
                            &trans &trans &trans           &trans &trans &trans  
