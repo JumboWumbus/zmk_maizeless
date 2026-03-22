@@ -171,193 +171,193 @@
             bindings = <&kp LC(LSHIFT)>;
         };
         combo_num_vim_j{
-          key-positions= <19,20>;
+          key-positions= <19 20>;
           bindings = <&kp J>;
           layers = <1>;
         };
 
         combo_num_vim_k{
-          key-positions= <20,21>;
+          key-positions= <20 21>;
           bindings = <&kp K>;
           layers = <1>;
         };
 
         combo_def_lpar{
-          key-positions= <15,16>;
+          key-positions= <15 16>;
           bindings = <&kp LPAR>;
           layers = <0>;
         };
 
         combo_def_rpar{
-          key-positions= <19,20>;
+          key-positions= <19 20>;
           bindings = <&kp RPAR>;
           layers = <0>;
         };
 
         combo_def_lbrc{
-          key-positions= <15,23>;
+          key-positions= <15 23>;
           bindings = <&kp LBRC>;
           layers = <0>;
         };
 
         combo_def_rbrc{
-          key-positions= <20,31>;
+          key-positions= <20 31>;
           bindings = <&kp RBRC>;
           layers = <0>;
         };
 
         combo_def_lbkt{
-          key-positions= <16,17>;
+          key-positions= <16 17>;
           bindings = <&kp LBKT>;
           layers = <0>;
         };
 
         combo_def_rbkt{
-          key-positions= <18,19>;
+          key-positions= <18 19>;
           bindings = <&kp RBKT>;
           layers = <0>;
         };
 
         combo_def_GT{
-          key-positions= <3,16>;
+          key-positions= <3 16>;
           bindings = <&kp GT>;
           layers = <0>;
         };
 
         combo_def_LT{
-          key-positions= <15,4>;
+          key-positions= <15 4>;
           bindings = <&kp LT>;
           layers = <0>;
         };
 
         combo_def_fslh{
-          key-positions= <4,17>;
+          key-positions= <4 17>;
           bindings = <&kp FSLH>;
           layers = <0>;
         };
 
         combo_def_bslh{
-          key-positions= <7,18>;
+          key-positions= <7 18>;
           bindings = <&kp BSLH>;
           layers = <0>;
         };
 
         combo_def_excl{
-          key-positions= <3,4>;
+          key-positions= <3 4>;
           bindings = <&kp EXCL>;
           layers = <0>;
         };
 
         combo_def_equal{
-          key-positions= <7,8>;
+          key-positions= <7 8>;
           bindings = <&kp EQUAL>;
           layers = <0>;
         };
 
         combo_def_colon{
-          key-positions= <13,14>;
+          key-positions= <13 14>;
           bindings = <&kp COLON>;
           layers = <0>;
         };
 
         combo_def_semi{
-          key-positions= <21,22>;
+          key-positions= <21 22>;
           bindings = <&kp SEMI>;
           layers = <0>;
         };
 
         combo_def_pipe{
-          key-positions= <27,28>;
+          key-positions= <27 28>;
           bindings = <&kp PIPE>;
           layers = <0>;
         };
 
         combo_def_amps{
-          key-positions= <31,32>;
+          key-positions= <31 32>;
           bindings = <&kp AMPS>;
           layers = <0>;
         };
 
         combo_def_grave{
-          key-positions= <2,3>;
+          key-positions= <2 3>;
           bindings = <&kp GRAVE>;
           layers = <0>;
         };
 
         combo_def_dqt{
-          key-positions= <8,9>;
+          key-positions= <8 9>;
           bindings = <&kp DQT>;
           layers = <0>;
         };
 
         combo_def_astrk{
-          key-positions= <4,5>;
+          key-positions= <4 5>;
           bindings = <&kp ASTRK>;
           layers = <0>;
         };
 
         combo_def_perc{
-          key-positions= <6,7>;
+          key-positions= <6 7>;
           bindings = <&kp PRCNT>;
           layers = <0>;
         };
 
         combo_def_plus{
-          key-positions= <14,15>;
+          key-positions= <14 15>;
           bindings = <&kp PLUS>;
           layers = <0>;
         };
 
         combo_def_minus{
-          key-positions= <20,21>;
+          key-positions= <20 21>;
           bindings = <&kp MINUS>;
           layers = <0>;
         };
 
         combo_def_hash{
-          key-positions= <8,19>;
+          key-positions= <8 19>;
           bindings = <&kp HASH>;
           layers = <0>;
         };
 
         combo_def_caret{
-          key-positions= <7,20>;
+          key-positions= <7 20>;
           bindings = <&kp CARET>;
           layers = <0>;
         };
 
         combo_def_at{
-          key-positions= <16,29>;
+          key-positions= <16 29>;
           bindings = <&kp AT>;
           layers = <0>;
         };
 
         combo_def_under{
-          key-positions= <19,30>;
+          key-positions= <19 30>;
           bindings = <&kp UNDER>;
           layers = <0>;
         };
 
         combo_def_copy{
-          key-positions= <26,27>;
+          key-positions= <26 27>;
           bindings = <&copy_morph>;
           layers = <0>;
         };
 
         combo_def_paste{
-          key-positions= <32,33>;
+          key-positions= <32 33>;
           bindings = <&paste_morph>;
           layers = <0>;
         };
 
         combo_def_undo{
-          key-positions= <28,29>;
+          key-positions= <28 29>;
           bindings = <&kp LC(Z)>;
           layers = <0>;
         };
 
         combo_def_redo{
-          key-positions= <30,31>;
+          key-positions= <30 31>;
           bindings = <&kp LC(LS(Z))>;
           layers = <0>;
         };
