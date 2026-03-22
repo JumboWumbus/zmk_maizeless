@@ -165,11 +165,6 @@
     };
     combos {
         compatible = "zmk,combos";
-        combo_ctrlshift {
-            timeout-ms = <150>;
-            key-positions = <12 24>;
-            bindings = <&kp LC(LSHIFT)>;
-        };
         combo_num_vim_j{
           key-positions= <19 20>;
           bindings = <&kp J>;
@@ -195,7 +190,7 @@
         };
 
         combo_def_lbrc{
-          key-positions= <15 23>;
+          key-positions= <15 28>;
           bindings = <&kp LBRC>;
           layers = <0>;
         };
