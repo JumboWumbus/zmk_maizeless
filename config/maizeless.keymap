@@ -63,7 +63,7 @@
             bindings = <
 &trans    &trans     &trans    &trans     &trans    &kp PLUS      &kp ASTRK &trans   &trans   &trans   &trans   &trans 
 &trans    &kp N1     &kp N2    &kp N3     &kp N4    &kp N5        &kp N6    &kp N7   &kp N8   &kp N9   &kp N0   &trans
-&trans    &trans     &trans    &trans     &trans    &kp MINUS     &kp BSLH  &trans   &trans   &trans   &trans   &trans
+&trans    &trans     &trans    &trans     &trans    &kp MINUS     &kp BSLH  &kp J    &kp K    &trans   &trans   &trans
                                &trans     &trans    &trans            &trans      &trans   &trans
             >;
         };
@@ -107,9 +107,9 @@
 
   l_vim{
     bindings = <
-      &trans &trans &trans &kp B  &kp E  &kp W            &kp CARET   &last_char    &trans &trans &trans &trans 
-      &trans &trans &trans &trans &trans &trans           &kp H       &kp J  &kp K  &kp L  &trans &trans 
-      &trans &trans &trans &trans &trans &trans           &kp B       &kp E  &kp W  &trans &trans &trans  
+      &trans &trans &trans &kp B  &kp E  &kp W            &kp CARET   &last_char  &trans &trans &trans &trans 
+      &trans &trans &trans &trans &trans &trans           &kp H       &kp J       &kp K  &kp L  &trans &trans 
+      &trans &trans &trans &trans &trans &trans           &kp B       &kp E       &kp W  &trans &trans &trans  
                            &trans &trans &trans           &trans &trans &trans  
     >;
   };
@@ -138,18 +138,6 @@
 };
 
 
-    caps_Word: prog_caps {
-        compatible = "zmk,behavior-caps-word";
-        #binding-cells = <0>;
-        continue-list = <UNDERSCORE>;
-    };
-
-    caps_key: caps_key_td {
-        compatible = "zmk,behavior-tap-dance";
-        #binding-cells = <0>;
-        tapping-term-ms = <200>;
-        bindings = <&caps_Word>, <&kp CAPS>;
-    };
 /*
  bindings = <
 &kp TAB       &kp Y        &kp C         &kp L         &kp M        &kp K                &kp Z   &kp F         &kp U           &kp APOS        &kp AMPS         &kp GRAVE
@@ -160,18 +148,6 @@
 
     combos {
         compatible = "zmk,combos";
-        combo_num_vim_j{
-          key-positions= <19 20>;
-          bindings = <&kp J>;
-          layers = <1>;
-        };
-
-        combo_num_vim_k{
-          key-positions= <20 21>;
-          bindings = <&kp K>;
-          layers = <1>;
-        };
-
 
         combo_def_sticky_shift{
           key-positions= <15 20>;
@@ -454,14 +430,17 @@
             keep-mods = <(MOD_LSFT | MOD_RSFT)>;
         };
 
-        lt: layer_tap {
-            // compatible = "zmk,behavior-hold-tap";
-            // #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <160>;
-            quick-tap-ms = <200>;
-            require-prior-idle-ms = <145>;
-            // bindinggs = <&kp>, <&mo>;
+        caps_Word: prog_caps {
+            compatible = "zmk,behavior-caps-word";
+            #binding-cells = <0>;
+            continue-list = <UNDERSCORE>;
+        };
+
+        caps_key: caps_key_td {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&caps_Word>, <&kp CAPS>;
         };
 
     };
