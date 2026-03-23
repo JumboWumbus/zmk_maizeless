@@ -2,7 +2,7 @@
 zmk_src_dir=$(HOME)/src/zmk
 # Clone external modules into here first
 external_modules_list := "$(zmk_src_dir)/modules/zmk-auto-layer"
-board=nice_nano
+board=nice_nano_v2
 shield=maizeless
 mkfile_path := $(abspath $(lastword $(MAKEFILE_LIST)))
 mkfile_dir := $(dir $(mkfile_path))

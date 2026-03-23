@@ -3,7 +3,7 @@ id: maizeless
 name: Maizeless
 type: shield
 url: https://github.com/bluedrink9/maizeless/
-requires: [nice_nano]
+requires: [nice_nano_v2]
 features:
   - keys
 siblings:
