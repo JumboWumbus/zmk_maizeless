@@ -6,7 +6,7 @@ manifest:
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
     # auto-layer | urob | mainly for num_word functionality
     - name: urob
-      url-base: https://github.com/urob   
+      url-base: https://github.com/urob
   projects:
     - name: zmk
       remote: zmkfirmware
