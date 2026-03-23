@@ -2,18 +2,18 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    # dhruvinsh for zmk-num-word
-    - name: dhruvinsh
-      url-base: https://github.com/dhruvinsh
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
+    # auto-layer | urob | mainly for num_word functionality
+    - name: urob
+      url-base: https://github.com/urob   
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: v0.3
       import: app/west.yml
-    - name: zmk-num-word
-      remote: dhruvinsh
-      revision: main
+    - name: zmk-auto-layer
+      remote: urob
+      revision: v0.3
   self:
     path: config

@@ -22,7 +22,7 @@
 
 
 &num_word {
-    layers = <L_NUMS>;
+//num_word to be used to temporarily activite number layer instead of holding layer key
 };
 
 //TODO Look at setting up the thumb keys and layers
@@ -181,7 +181,7 @@
 
         combo_def_num_word{
           key-positions= <16 19>;
-          bindings = <&num_word>;
+          bindings = <&num_word L_NUMS>;
           layers = <0>;
         };
 
