@@ -45,8 +45,8 @@
 
  */
  
-{
-        keymap {
+/{
+    keymap {
                 compatible = "zmk,keymap";
 
         l_qwerty {
